@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.example.shaoze;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -63,7 +63,7 @@ public class ShaozeMod {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ExampleMod() {
+    public ShaozeMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
